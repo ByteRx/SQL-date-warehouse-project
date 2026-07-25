@@ -8,7 +8,7 @@ Script purpose:
   the database: 'bronze','silver' and 'gold'
   */
 
-```sql
+
 USE master;
 GO
 
