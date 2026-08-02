@@ -23,7 +23,7 @@ Notes:
 */
 
 -- =====================================================
--- Patients
+-- Creating table: silver.Patients
 -- =====================================================
 DROP TABLE IF EXISTS silver.patients;
 GO
@@ -40,7 +40,7 @@ GO
 
 
 -- =====================================================
--- Admissions
+-- Creating table: silver.Admissions
 -- =====================================================
 DROP TABLE IF EXISTS silver.admissions;
 GO
@@ -70,7 +70,7 @@ GO
 
 
 -- =====================================================
--- Diagnoses
+-- Creating table: silver.Diagnoses
 -- =====================================================
 DROP TABLE IF EXISTS silver.diagnoses;
 GO
@@ -87,7 +87,7 @@ GO
 
 
 -- =====================================================
--- Medications
+-- Creating table: silver.Medications
 -- =====================================================
 DROP TABLE IF EXISTS silver.medications;
 GO
@@ -126,7 +126,7 @@ GO
 
 
 -- =====================================================
--- Labs
+-- Creating table: silver.Labs
 -- =====================================================
 DROP TABLE IF EXISTS silver.labs;
 GO
@@ -143,7 +143,7 @@ CREATE TABLE silver.labs (
 GO
 
 -- =====================================================
--- Utilization
+-- Creating table: silver.Utilization
 -- =====================================================
 DROP TABLE IF EXISTS silver.utilization;
 GO
@@ -163,7 +163,7 @@ CREATE TABLE silver.utilization (
 GO
 
 -- =====================================================
--- Outcomes
+-- Creating table: silver.Outcomes
 -- =====================================================
 DROP TABLE IF EXISTS silver.outcomes;
 GO
