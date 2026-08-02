@@ -9,8 +9,11 @@ Script Purpose:
 ---------------------------------------------------------------------------------
 */
 
-IF OBJECT_ID ('bronze.csv_diabetics_info', 'U') IS NOT NULL
-    DROP TABLE bronze.csv_diabetics_info;
+-- =====================================================
+-- Creating table: bronze.csv_diabetics_info
+-- =====================================================
+
+DROP TABLE IF EXISTS bronze.csv_diabetics_info;
 GO
 
 CREATE TABLE bronze.csv_diabetics_info (
