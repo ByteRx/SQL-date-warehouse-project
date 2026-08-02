@@ -127,6 +127,6 @@ This project is part of my portfolio as I transition from a background in Pharma
 
 ---
 
-## 📄 Data Source & License
+## 📄 Data Source
 
 Dataset: [Diabetes 130-US Hospitals for Years 1999–2008](https://archive.ics.uci.edu/dataset/296/diabetes+130-us+hospitals+for+years+1999-2008).
