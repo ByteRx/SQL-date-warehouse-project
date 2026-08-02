@@ -9,7 +9,7 @@ Script purpose:
   */
 
 
-USE master;
+USE DataWarehouse;
 GO
 
 IF EXISTS (SELECT 1 FROM sys.databases WHERE name = 'DataWarehouse') 
